@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+#square {
+	width: 100px;
+	height: 100px;
+}
+#rectangle {
+	width: 200px;
+	height: 100px;
+}
+#circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+}
+#oval {
+	width: 200px;
+	height: 100px;
+	border-radius: 100%;
+}
+.shapes {
+	background-color: blue;
+	float: left;
+	margin: 20px;
+	text-align: center;
+}
+</style>
+	<title></title>
+</head>
+<body>
+<h1>Geometry In Action</h1>
+<div class="shapes" id="circle" onmouseover ="changeColor()">Can't Tounch Dis!</div>
+<div class="shapes" id="square" onclick ="changeColor()">Click Me!</div>
+<div class="shapes" id="rectangle" ondblclick="changeColor()">Double The Square!</div>
+<div class="shapes" id="oval" oncontextmenu="changeColor()">Right Click Me!</div>
+<script type="text/javascript">
+	function changeColor() {
+		event.target.style.background = green;
+	}
+</script>
+</body>
+</html>

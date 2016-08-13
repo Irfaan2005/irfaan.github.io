@@ -1,0 +1,111 @@
+body {
+	background-color: red;
+    /*background-image: url("background.png");*/
+    text-align: center;
+}
+
+header {
+	background: ;
+	/* background: #121E28 url("paint1.png") no-repeat top right; */
+	width:100%;
+	float:left;
+}
+
+#header_container {
+	padding-bottom: 5px;
+}
+
+#title {
+	font-size: ;
+	font-weight: ;
+	font-family: ;
+	color: ;
+	color: ;
+	margin: 10px;
+}
+
+a {
+	font-size: ;
+	color: ;
+	margin-bottom: 30px;
+}
+
+#bear_container {
+	background: ;
+	width: 100%;
+	height: 1000px;
+	display: inline-block;
+}
+
+#bear_container p {
+	font-size: ;
+
+}
+
+
+.bear_head{
+	width: 600px;
+	height: 480px;
+	border-radius: 47%;
+	background-color: brown;
+	border: 1px solid black;
+	position: relative;
+	margin: 20px auto;
+}
+
+.bear_ears {
+	display:block;
+	background-color: green;
+	border-radius:50%;
+	border:20px solid yellow;
+	width:90px;
+	height:180px;
+}
+
+#bear_ear_right {
+	position: absolute;
+	top: 120px;
+	left: -40px;
+}
+
+#bear_ear_left {
+	position: absolute;
+	top: 120px;
+	left: 512px;
+}
+
+.bear_eyes {
+	display:block;
+	background-color: black;
+	height:150px;
+	width:150px;
+	border:17px solid white;
+	border-radius:50%;
+}
+
+#bear_eyes_right {
+	position: absolute;
+  	top:170px;
+  	left:145px;
+}
+
+#bear_eyes_left{
+	position: absolute;
+	top:170px;
+  	left:345px;
+}
+
+
+.smile {
+	height: 208px;
+	width: 203px;
+	border-bottom: 25px solid grey;
+	border-radius: 50%;
+	position: absolute;
+	top: 246px;
+	left: 206px;
+}
+
+h1 {
+	font-family: Papyrus;
+}
